@@ -1,7 +1,9 @@
 # TinyAgent: Function Calling at the Edge
 
 <p align="center">
-<a href="https://github.com/SqueezeAILab/TinyAgent/raw/main/TinyAgent.zip">Get the desktop app</a>‎ ‎ |‎ ‎ <a href="https://bair.berkeley.edu/blog/2024/05/28/tiny-agent">Read the blog post</a>
+<a href="https://github.com/SqueezeAILab/TinyAgent/raw/main/TinyAgent.zip">Get the desktop app</a>‎ ‎ 
+  |‎ ‎ 
+<a href="https://bair.berkeley.edu/blog/2024/05/28/tiny-agent">Read the blog post</a>
 </p>
 
 ![Thumbnail](figs/tinyagent.png)
@@ -11,7 +13,7 @@ TinyAgent aims to enable complex reasoning and function calling capabilities in 
 ## Demo
 
 <a href="https://youtu.be/0GvaGL9IDpQ" target="_blank" rel="noopener noreferrer">
-  <img src="https://github.com/SqueezeAILab/TinyAgent/assets/65496977/4589b48d-3678-4493-be77-ca7eb5613786" alt="Alt text" width="700">
+  <img src="https://github.com/SqueezeAILab/TinyAgent/assets/65496977/014542fe-e4a1-4113-92a5-873fe3a01715" alt="TinyAgent Demo" width="700">
 </a>
 
 ## What can TinyAgent do?
