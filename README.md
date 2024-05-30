@@ -3,7 +3,7 @@
 <p align="center">
 <a href="https://github.com/SqueezeAILab/TinyAgent/raw/main/TinyAgent.zip">Get the desktop app</a>‎ ‎ 
   |‎ ‎ 
-<a href="https://bair.berkeley.edu/blog/2024/05/28/tiny-agent">Read the blog post</a>
+<a href="https://bair.berkeley.edu/blog/2024/05/29/tiny-agent">Read the blog post</a>
 </p>
 
 ![Thumbnail](figs/tinyagent.png)
@@ -91,7 +91,9 @@ Depending on the task simplicity, TinyAgent orchestrates the execution of differ
 
 ### 🛠️ ToolRAG
 
-When faced with challenging tasks, SLM agents require appropriate tools and in-context examples to guide them. If the model sees irrelevant examples, it can hallucinate. Likewise, if the model sees the descriptions of the tools that it doesn’t need, it usually gets confused, and these tools take up unnecessary prompt space. To tackle this, TinyAgent uses ToolRAG to retrieve the best tools and examples suited for a given query. This process has minimal latency and increases the accuracy of TinyAgent substantially. Please take a look at our blog post and our [ToolRAG model](https://huggingface.co/squeeze-ai-lab/TinyAgent-ToolRAG) for more details.
+When faced with challenging tasks, SLM agents require appropriate tools and in-context examples to guide them. If the model sees irrelevant examples, it can hallucinate. Likewise, if the model sees the descriptions of the tools that it doesn’t need, it usually gets confused, and these tools take up unnecessary prompt space. To tackle this, TinyAgent uses ToolRAG to retrieve the best tools and examples suited for a given query. This process has minimal latency and increases the accuracy of TinyAgent substantially. Please take a look at our [blog post](https://bair.berkeley.edu/blog/2024/05/29/tiny-agent) and our [ToolRAG model](https://huggingface.co/squeeze-ai-lab/TinyAgent-ToolRAG) for more details.
+
+> You need to first install our [ToolRAG model](https://huggingface.co/squeeze-ai-lab/TinyAgent-ToolRAG) from Hugging Face and enable it from the TinyAgent settings to use it.  
 
 ### 🎙️ Whisper
 
@@ -121,7 +123,7 @@ You can plug-and-play every part of TinyAgent with your local models! TinyAgent 
 
 ## Fine-tuned TinyAgents
 
-We also provide our own fine-tuned open source models, TinyAgent-1.1B and TinyAgent-7B! We curated a dataset of 40000 real-life use cases for TinyAgent and fine-tuned two small open-source language models on this dataset with LoRA. After fine-tuning and using ToolRAG, both TinyAgent-1.1B and TinyAgent-7B exceed the performance of GPT-4-turbo. Check out our for the specifics of dataset generation, evaluation, and fine-tuning.
+We also provide our own fine-tuned open source models, TinyAgent-1.1B and TinyAgent-7B! We curated a [dataset](https://huggingface.co/datasets/squeeze-ai-lab/TinyAgent-dataset) of 40000 real-life use cases for TinyAgent and fine-tuned two small open-source language models on this dataset with LoRA. After fine-tuning and using ToolRAG, both TinyAgent-1.1B and TinyAgent-7B exceed the performance of GPT-4-turbo. Check out our for the specifics of dataset generation, evaluation, and fine-tuning.
 
 | Model                                                                                                                                                       | Success Rate |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
@@ -227,13 +229,13 @@ custom_agent: CustomAgent
 
 ## Citation
 
-We would appreciate it if you could please cite our blog post if you found TinyAgent useful for your work:
+We would appreciate it if you could please cite our [blog post](https://bair.berkeley.edu/blog/2024/05/29/tiny-agent/) if you found TinyAgent useful for your work:
 
 ```
 @misc{tiny-agent,
   title={TinyAgent: Function Calling at the Edge},
   author = {Erdogan, Lutfi Eren and Lee, Nicholas and Jha, Siddharth and Kim, Sehoon and Tabrizi, Ryan and Moon, Suhong and Anumanchipalli, Gopala and Keutzer, Kurt and Gholami, Amir},
-  howpublished={\url{https://bair.berkeley.edu/blog/2024/05/28/tiny-agent/}},
+  howpublished={\url{https://bair.berkeley.edu/blog/2024/05/29/tiny-agent/}},
   year={2024}
 }
 ```
