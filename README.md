@@ -234,7 +234,7 @@ We would appreciate it if you could please cite our [blog post](https://bair.ber
 ```
 @misc{tiny-agent,
   title={TinyAgent: Function Calling at the Edge},
-  author = {Erdogan, Lutfi Eren and Lee, Nicholas and Jha, Siddharth and Kim, Sehoon and Tabrizi, Ryan and Moon, Suhong and Anumanchipalli, Gopala and Keutzer, Kurt and Gholami, Amir},
+  author={Erdogan, Lutfi Eren and Lee, Nicholas and Jha, Siddharth and Kim, Sehoon and Tabrizi, Ryan and Moon, Suhong and Hooper, Coleman and Anumanchipalli, Gopala and Keutzer, Kurt and Gholami, Amir},
   howpublished={\url{https://bair.berkeley.edu/blog/2024/05/29/tiny-agent/}},
   year={2024}
 }
