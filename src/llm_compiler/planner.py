@@ -50,7 +50,7 @@ def generate_llm_compiler_prompt(
         prefix += f"{i+1}. {tool.description}\n"
 
     # Join operation
-    prefix += f"{i+2}. {JOIN_DESCRIPTION}\n\n"
+    prefix += f"{len(tools)+1}. {JOIN_DESCRIPTION}\n\n"
 
     # Guidelines
     prefix += (
